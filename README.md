@@ -9,8 +9,6 @@ curl -fsSLO https://raw.githubusercontent.com/Jaksay/fabu-dist/main/scripts/boot
 sudo bash bootstrap.sh 1.0.0
 ```
 
-`bootstrap.sh` 会下载对应版本的 `fabu-<版本>.tar.gz` 和 `.sha256`，校验一致才解包安装。要固定哈希可以加 `--sha256 <哈希>`；只校验不安装用 `--verify-only`。
-
 ## 手动安装
 
 在 Releases 下载 `fabu-<版本>.tar.gz`，校验后解包：
