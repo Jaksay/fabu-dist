@@ -6,7 +6,6 @@ Fabu 源码在私有仓库，这里只放安装包和安装脚本。版本见 Re
 
 ```sh
 curl -fsSLO https://raw.githubusercontent.com/Jaksay/fabu-dist/main/scripts/bootstrap.sh
-less bootstrap.sh
 sudo bash bootstrap.sh 1.0.0
 ```
 
